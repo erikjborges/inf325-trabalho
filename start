@@ -1,0 +1,23 @@
+#!/bin/bash
+
+mkdir logs
+
+
+chmod +x ~/binder/start.mongodb 
+chmod +x ~/binder/start.adminmongo 
+chmod +x ~/binder/start.vscode 
+
+# starting mongodb
+~/binder/start.mongodb   &
+
+# starting adminmongo in parallel
+# ~/binder/start.adminmongo   &
+
+# starting adminmongo in parallel
+~/binder/start.vscode   &
+
+
+
+# DO NOT REMOVE(!) 
+# Here is why: https://mybinder.readthedocs.io/en/latest/config_files.html#start-run-code-before-the-user-sessions-starts
+exec "$@"
