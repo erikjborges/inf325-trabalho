@@ -3,6 +3,10 @@ Repositório para desenvolvimendo do trabalho final da disciplina de INF325 do c
 
 <!-- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/erikjborges/inf325-trabalho/master) -->
 
+### Recomendação
+
+Para uma visualização rápida do trabalho realizado, recomendamos ver o arquivo [Jupyter Notebook](jupyter-work/VendedoresProdutos_Mongo.ipynb)
+
 ## Organização dos arquivos
 
  - docker-compose.yml: Arquivo de configuração do Docker Compose para subir os containeres do projeto;
