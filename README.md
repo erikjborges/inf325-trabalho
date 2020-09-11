@@ -1,18 +1,27 @@
 # inf325-trabalho
-Repositório para desenvolvimendo do trabalho final da disciplina de INF325 do curso de especialização em Engenharia de Software da Unicamp.
 
-<!-- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/erikjborges/inf325-trabalho/master) -->
+Repositório para desenvolvimendo do trabalho final da disciplina de INF325 do curso de especialização em Engenharia de Software da Unicamp.
 
 ### Recomendação
 
 Para uma visualização rápida do trabalho realizado, recomendamos ver o arquivo [Jupyter Notebook](jupyter-work/VendedoresProdutos_Mongo.ipynb)
+Também é possível utilizar o link do Binder na documentação abaixo.
 
 ## Organização dos arquivos
 
+ - binder/: Pasta de arquivos de configuração do Binder;
  - docker-compose.yml: Arquivo de configuração do Docker Compose para subir os containeres do projeto;
  - jupyter-work/: Pasta contendo os notebooks do Jupyter utilizados no desenvolvimento do projeto e para testes;
  - LICENSE: Arquivo de licença do projeto;
  - queries/: Pasta contendo as buscas no banco de dados Mongo desenvolvidas para esse projeto, em formato Mongo Shell.
+
+
+## Setup do projeto utilizando Binder
+
+
+Foi configurado um ambiente no Binder para facilitar o teste do sistema, para acessa-lo basta clicar no link abaixo:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/erikjborges/inf325-trabalho/master?filepath=jupyter-work%2FVendedoresProdutos_Mongo.ipynb)
 
 
 ## Setup do projeto utilizando Docker / Docker Compose
