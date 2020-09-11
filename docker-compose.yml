@@ -4,3 +4,16 @@ services:
 
   mongo:
     image: mongo
+    ports:
+       - "27017:27017"
+    volumes:
+       - "./volumes/mongo:/data/db"
+
+  jupyter:
+    image: jupyter/base-notebook
+    ports:
+       - "8888:8888"
+    links:
+       - mongo
+    volumes:
+       - "./jupyter-work:/home/jovyan/work"
