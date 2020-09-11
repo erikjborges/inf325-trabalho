@@ -5,6 +5,7 @@ Repositório para desenvolvimendo do trabalho final da disciplina de INF325 do c
 ### Recomendação
 
 Para uma visualização rápida do trabalho realizado, recomendamos ver o arquivo [Jupyter Notebook](jupyter-work/VendedoresProdutos_Mongo.ipynb)
+
 Também é possível utilizar o link do Binder na documentação abaixo.
 
 ## Organização dos arquivos
