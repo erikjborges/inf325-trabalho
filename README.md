@@ -2,6 +2,8 @@
 
 Repositório para desenvolvimendo do trabalho final da disciplina de INF325 do curso de especialização em Engenharia de Software da Unicamp.
 
+#### Link do repositório no GitHub: (https://github.com/erikjborges/inf325-trabalho)
+
 ### Recomendação
 
 Para uma visualização rápida do trabalho realizado, recomendamos ver o arquivo [Jupyter Notebook](jupyter-work/VendedoresProdutos_Mongo.ipynb)
